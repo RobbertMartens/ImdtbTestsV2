@@ -35,7 +35,7 @@ namespace Domain
 
         public static string GetConfigFilePath()
         {
-            return GetSolutionPath() + "Domain\\test.config.txt";
+            return GetSolutionPath() + "test.config.txt";
         }
     }
 }

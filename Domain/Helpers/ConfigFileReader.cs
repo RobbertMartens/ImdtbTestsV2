@@ -22,7 +22,7 @@ namespace Domain.Helpers
             catch (FileNotFoundException ex)
             {
                 Console.WriteLine(ex.StackTrace);
-                throw new FileNotFoundException("config file not found! Be sure that test.config.txt is placed in Domain main folder!");
+                throw new FileNotFoundException("config file not found! Be sure that test.config.txt is placed in main folder!");
             }
         }
 
