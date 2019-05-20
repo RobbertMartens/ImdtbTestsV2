@@ -28,7 +28,6 @@ namespace ImdtbTests
             Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
             Driver.Url = Constants.HomePage;
             Driver.Manage().Window.Maximize();
-            Console.WriteLine("test");
         }
 
         public virtual void Dispose()
